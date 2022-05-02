@@ -1,8 +1,8 @@
 # Virtual-cards
 Virtual cards is a frontend project done using React.
 So to run this locally, Create a react app.
-The project displays designed cards using css displayed across tabs 
-Filter dropdown and search components also been implemented, based on type of cards
+The project displays designed cards using css and does it across tabs 
+Filter dropdown and search components also being implemented, based on type of cards
 
 
 - App.js file renders the components.
