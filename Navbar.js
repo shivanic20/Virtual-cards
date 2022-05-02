@@ -154,8 +154,8 @@ return (
         <p className="headingthree">Card</p>
          
         <select className="typeselect" placeholder="Select cardholder">
-           <option>Darla</option>
-             <option>shiva</option> </select>
+           <option>option</option>
+             <option>option</option> </select>
 
              <div className="buttonone" onClick={toggle}>Apply</div>
 
