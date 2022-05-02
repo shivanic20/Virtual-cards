@@ -33,7 +33,13 @@ export default function Card(props){
                 borderRadius: '25px 0px 0px 25px'}}  ></div>
                  </div>
            
-            
+            </div>
+                 <div className="spent"><div className="pinkdot"><li></li></div><div className="sa">Spent</div> 
+                 <div className="currency">{props.item.spent.value}{props.item.spent.currency}</div>
+                 </div>
+                 <div className="available"><div className="greendot"><li></li></div><div className="sa">Available</div> 
+                 <div className="currency">{props.item.available_to_spend.value}{props.item.available_to_spend.currency}</div>
+                 </div>
 
            
             </div>
