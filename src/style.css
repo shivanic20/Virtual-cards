@@ -1,0 +1,179 @@
+*{
+    
+        box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; */
+    
+}
+.bold{
+    font-weight: 900;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+.addcard{
+    font-size: small;
+    height:30px;
+    width: 150px;
+    /* border: solid; */
+    border-color: black;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5px;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* gap: 100 px;   */
+    /* background-color: blueviolet; */
+}
+.card
+{    width: 40%;
+    /* gap : 30px; */
+    margin: 10px 0px 20px 30px;
+    margin-right: auto;
+    font-size: 12px;
+    height: 200px;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column;  
+    position: relative;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    /* background-color: pink; */
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+}
+nav {
+    height: 100px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 5px 36px;
+    
+}
+.gray {
+    color:  #C0C0C0;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: mediumbold
+}
+.line{
+    display:flex;
+    /* border-style : none; */
+    font-size: small;;
+    color: #778899;
+    
+}
+.card--badge{
+    border: 1px solid #8e8c96c5;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color:  #C0C0C0;
+    margin-right: auto;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+}
+
+.bar
+{
+    /* width: 100%; */
+    border: transparent ;
+   border-radius: 25px;
+    height : 15px;
+    margin: auto;
+    background-color: #138a46;
+    
+
+   }
+  
+  .search{
+      margin-left: 70%;
+      margin-top: 15px;
+      width: 100px;
+      border: 1px solid #8e8c96c5;
+      
+    }
+  .button
+  {
+      margin-left: 15px;;
+      border: solid lightgray;
+      width: 85px;
+      height: 35px;
+      text-align: center;
+      /* display: inline-block; */
+      border-radius: 5px;
+      margin-top: 15px;
+      font-size: small;
+      padding-top: 4px;
+      
+  }
+  .searchfilter{
+      display: flex;
+      width: 100%;
+  }
+  .filterdrop{
+      width:400px;
+      height:300px;
+      border: solid 1px gray;
+      margin-left:52%;
+      border-radius: 5px;
+      position: absolute;
+      margin-top: 20px;
+      background-color: #fff;
+      z-index: 9;
+  }
+  .typeselect{
+      width:90%;
+      height:30px;
+      border-color: gray;
+      margin: 0px 10px;
+  }
+  
+
+  .buttonone{
+      background-color:#fa2a55;
+      height: 35px;
+      width: 150px;
+      border: solid 1px gainsboro;
+      margin-top: 10px;
+      margin-left: 30px;
+      border-radius: 5px;
+      font-size: small;
+      text-align: center;
+      color: white;
+      padding-top: 5px;
+      display: inline-block;
+  }
+  .buttontwo{
+    background-color: white;
+    height: 35px;
+    width: 150px;
+    border: solid 1px gainsboro;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: small;
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+    display: inline-block;
+  }
