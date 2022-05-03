@@ -23,7 +23,7 @@ installing
 ```
 npm install react-tabs
 ```
-##@iconify/react
+## @iconify/react
 installing
 ```
 npm install --save-dev @iconify/react
