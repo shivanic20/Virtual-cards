@@ -155,8 +155,8 @@ nav {
       margin-left: 70%;
       margin-top: 15px;
       width: 100px;
-      border: 1px solid #8e8c96c5;
-      
+/*       border: 1px solid #8e8c96c5; */
+      border: 1px solid transparent;
     }
   .button
   {
@@ -222,4 +222,12 @@ nav {
     color: black;
     padding-top: 5px;
     display: inline-block;
+  }
+.icon
+  {
+  /* {display: flex;
+    text-align: center; */
+    margin-top: 25px;
+
+
   }
