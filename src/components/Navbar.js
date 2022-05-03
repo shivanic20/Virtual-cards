@@ -140,7 +140,7 @@ return (
           placeholder = "search" 
           
           onChange = {handleChange}
-        /><Icon icon='ic:round-search'/>
+        /><Icon icon='ic:round-search' className="icon"/>
         <div className="button" onClick={toggle}><Icon icon="ic:outline-filter-list" id='icon'/>Filter</div>
       
         </div>
