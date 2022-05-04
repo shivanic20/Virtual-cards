@@ -5,7 +5,7 @@ import data from "../data.js"
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "../reactstyle.css";
 import Search from "./Search"
-// import FilterDropdown from "./FilterDropdown";
+import { Icon } from '@iconify/react';
 
 
 export default function Navbar() {
@@ -21,6 +21,7 @@ export default function Navbar() {
                
     }) ;
 
+    
     const cardsYour = data.map(item => {
         return (
            item.owner_id==1 && <Card
@@ -133,13 +134,15 @@ return (
       <Tab>All</Tab>
     </TabList>
    <div className="searchfilter">
-        <input 
+   <input 
           className="search"
           type = "search" 
           placeholder = "search" 
           
           onChange = {handleChange}
-        /><div className="button" onClick={toggle}>Filter</div>
+           
+        /><Icon icon='ic:round-search' className="icon"/>
+        <div className="button" onClick={toggle}><Icon icon="ic:outline-filter-list" id='icon'/>Filter</div>
       
         </div>
         { on &&  <div className="filterdrop" >
@@ -196,20 +199,3 @@ return (
 
 
 
-/* { on && <div className="filterdrop">
-        
-        <p className="heading">Filters</p>
-        <hr className="hr"></hr>
-        <p className="heading">Type</p>
-        <input type="checkbox" />Burner <input type="checkbox" />subscription
-        
-        <p className="headingthree">Card</p>
-         
-        <select className="typeselect" placeholder="Select cardholder">
-           <option>Darla</option>
-             <option>shiva</option> </select>
-
-             <div className="buttonone">Apply</div>
-
-             <div className="buttontwo">Clear</div>
-        </div>} */
